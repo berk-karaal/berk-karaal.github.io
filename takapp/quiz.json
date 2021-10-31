@@ -1,0 +1,84 @@
+{
+  "names":["test 1","test 2","test 3","test 4"],
+
+  "quiz1":[
+    "29 Haziran 2021",
+    {
+      "q1":["söz yazarı","sözyazarı"],
+      "a1":"0",
+
+      "q2":["yazar çizer","yazarçizer"],
+      "a2":"1",
+
+      "q3":["yeniay","yeni ay"],
+      "a3":"1",
+
+      "q4":["yeniyıl","yeni yıl"],
+      "a4":"1",
+
+      "q5":["iş kadını","işkadını"],
+      "a5":"0"
+    },
+    "11"
+  ],
+  "quiz2":[
+    "29 Haziran 2021",
+    {
+      "q1":["kuşburnu","kuş burnu"],
+      "a1":"0",
+
+      "q2":["iş adamı","işadamı"],
+      "a2":"0",
+
+      "q3":["işgüder","iş güder"],
+      "a3":"0",
+
+      "q4":["doğa dışı","doğadışı"],
+      "a4":"0",
+
+      "q5":["sıra dışı","sıradışı"],
+      "a5":"0"
+    },
+    "11"
+  ],
+  "quiz3":[
+    "29 Haziran 2021",
+    {
+      "q1":["babaevi","baba evi"],
+      "a1":"0",
+
+      "q2":["ana para","anapara"],
+      "a2":"1",
+
+      "q3":["su altı","sualtı"],
+      "a3":"0",
+
+      "q4":["anadal","ana dal"],
+      "a4":"1",
+
+      "q5":["önsöz","ön söz"],
+      "a5":"1"
+    },
+    "11"
+  ],
+  "quiz4":[
+    "29 Haziran 2021",
+    {
+      "q1":["unvan","ünvan"],
+      "a1":"0",
+
+      "q2":["traş","tıraş"],
+      "a2":"1",
+
+      "q3":["pekçok","pek çok"],
+      "a3":"1",
+
+      "q4":["glikoz","glükoz"],
+      "a4":"0",
+
+      "q5":["abajur","abajür"],
+      "a5":"0"
+    },
+    "11"
+  ]
+}
