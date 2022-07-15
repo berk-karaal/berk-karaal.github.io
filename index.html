@@ -14,24 +14,17 @@ Project repo: https://github.com/berk-karaal/minimal-website
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
-
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
     <!-- Ubuntu Font-family -->
     <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
-    <style>
-        body {
-            font-family: 'Ubuntu';
-            font-size: 22px;
-        }
 
-        .link {
-            text-decoration: none;
-        }
+    <!-- js -->
+    <script src="script.js"></script>
 
-        .link:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
 
     <title>Berk Karaal</title>
 </head>
@@ -73,90 +66,110 @@ Project repo: https://github.com/berk-karaal/minimal-website
         <hr>
 
         <!-- Projects Start -->
-        <div class="row d-flex text-center mt-4 justify-content-center">
-            <h2 class="mb-4">Projeler</h2>
-
-            <!-- Project -->
-            <div class="card m-2" style="width: 25rem; background-color: #f5f5f5;">
-                <div class="card-body d-flex flex-column">
-                    <h4 class="card-title">diyorum-ki</h4>
-                    <hr>
-                    <p class="card-text">Düşüncelerinizi anonim olarak paylaşın.</p>
-                    <a href="https://diyorum-ki.herokuapp.com/" class="btn btn-primary align-self-center mt-auto">Siteye
-                        git</a>
-                </div>
-            </div>
-
-            <!-- Project -->
-            <div class="card m-2" style="width: 25rem; background-color: #f5f5f5;">
-                <div class="card-body d-flex flex-column">
-                    <h4 class="card-title">TAK: Tyt-Ayt Kelimeleri</h4>
-                    <hr>
-                    <p class="card-text">TYT ve AYT sınavlarında çıkabilecek yazımı karıştırılan kelimelerin bulunduğu
-                        ve online olarak kelimelerin güncellenebildiği bir Android uygulaması.</p>
-                    <a href="https://play.google.com/store/apps/details?id=com.berkkaraal.takapp"
-                        class="btn btn-primary align-self-center mt-auto">Uygulamaya git</a>
-                </div>
-            </div>
-
-            <!-- Project -->
-            <div class="card m-2" style="width: 25rem; background-color: #f5f5f5;">
-                <div class="card-body d-flex flex-column">
-                    <h4 class="card-title">Minimal Web Sitesi</h4>
-                    <hr>
-                    <p class="card-text">Yaptığım bu sitenin tasarımını Open Source olarak paylaştım. GitHub sayfasından
-                        kodlara ulaşabilirsiniz.</p>
-                    <a href="https://github.com/berk-karaal/minimal-website"
-                        class="btn btn-primary align-self-center mt-auto">GitHub Repo</a>
-                </div>
-            </div>
-
-
+        <div class="row justify-content-center m-0" data-bs-toggle="collapse" href="#projects-panel" role="button"
+            aria-expanded="false" aria-controls="projects-panel" onclick="RotateIcon('projects-collapse-icon')">
+            <h2 class="m-0 text-center col-auto">Projeler <i class="fas fa-solid fa-angle-down m-0 col-auto rotate"
+                    style="color: #5a5a5a" id="projects-collapse-icon"></i></h2>
         </div>
-        <div class="text-center mb-4">
-            <a href="https://www.berkkaraal.com/eski-projeler" class="link col-auto mt-3 mb-5">Eski projeler arşivi</a>
+
+        <div class="collapse" id="projects-panel">
+            <div class="row d-flex text-center mt-4 justify-content-center">
+
+                <!-- Project -->
+                <div class="card m-2" style="width: 25rem; background-color: #f5f5f5;">
+                    <div class="card-body d-flex flex-column">
+                        <h4 class="card-title">diyorum-ki</h4>
+                        <hr>
+                        <p class="card-text">Düşüncelerinizi anonim olarak paylaşın.</p>
+                        <a href="https://diyorum-ki.herokuapp.com/"
+                            class="btn btn-primary align-self-center mt-auto">Siteye
+                            git</a>
+                    </div>
+                </div>
+
+                <!-- Project -->
+                <div class="card m-2" style="width: 25rem; background-color: #f5f5f5;">
+                    <div class="card-body d-flex flex-column">
+                        <h4 class="card-title">TAK: Tyt-Ayt Kelimeleri</h4>
+                        <hr>
+                        <p class="card-text">TYT ve AYT sınavlarında çıkabilecek yazımı karıştırılan kelimelerin
+                            bulunduğu
+                            ve online olarak kelimelerin güncellenebildiği bir Android uygulaması.</p>
+                        <a href="https://play.google.com/store/apps/details?id=com.berkkaraal.takapp"
+                            class="btn btn-primary align-self-center mt-auto">Uygulamaya git</a>
+                    </div>
+                </div>
+
+                <!-- Project -->
+                <div class="card m-2" style="width: 25rem; background-color: #f5f5f5;">
+                    <div class="card-body d-flex flex-column">
+                        <h4 class="card-title">Minimal Web Sitesi</h4>
+                        <hr>
+                        <p class="card-text">Yaptığım bu sitenin tasarımını Open Source olarak paylaştım. GitHub
+                            sayfasından
+                            kodlara ulaşabilirsiniz.</p>
+                        <a href="https://github.com/berk-karaal/minimal-website"
+                            class="btn btn-primary align-self-center mt-auto">GitHub Repo</a>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="text-center mb-4">
+                <a href="https://www.berkkaraal.com/eski-projeler" class="link col-auto mt-3 mb-5">Eski projeler
+                    arşivi</a>
+            </div>
         </div>
         <!-- Projects End -->
 
         <hr>
 
         <!-- Blogs Start -->
-        <div class="row d-flex text-center mt-4 justify-content-center mb-4">
-            <h2 class="mb-4">Blog Postlar</h2>
+        <div class="row justify-content-center m-0" data-bs-toggle="collapse" href="#blogs-panel" role="button"
+            aria-expanded="false" aria-controls="blogs-panel" onclick="RotateIcon('blogs-collapse-icon')">
+            <h2 class="m-0 text-center col-auto">Blog Postlar <i class="fas fa-solid fa-angle-down m-0 col-auto rotate"
+                    style="color: #5a5a5a" id="blogs-collapse-icon"></i></h2>
+        </div>
 
-            <!-- Blog Post -->
-            <div class="card m-2" style="width: 25rem; background-color: #f5f5f5;">
-                <div class="card-body d-flex flex-column">
-                    <h4 class="card-title">Bitwarden Nedir ve Pardus 21’e Nasıl Kurulur?</h4>
-                    <hr>
-                    <p class="card-text">Bitwarden'i tanıtıp, Pardus 21'de kurulumunu anlatan bir yazı.</p>
-                    <a href="https://gonullu.pardus.org.tr/bitwarden-nedir-ve-pardus-21e-nasil-kurulur/"
-                        class="btn btn-primary align-self-center mt-auto">Oku</a>
+        <div class="collapse" id="blogs-panel">
+            <div class="row d-flex text-center mt-4 justify-content-center mb-4">
+
+                <!-- Blog Post -->
+                <div class="card m-2" style="width: 25rem; background-color: #f5f5f5;">
+                    <div class="card-body d-flex flex-column">
+                        <h4 class="card-title">Bitwarden Nedir ve Pardus 21’e Nasıl Kurulur?</h4>
+                        <hr>
+                        <p class="card-text">Bitwarden'i tanıtıp, Pardus 21'de kurulumunu anlatan bir yazı.</p>
+                        <a href="https://gonullu.pardus.org.tr/bitwarden-nedir-ve-pardus-21e-nasil-kurulur/"
+                            class="btn btn-primary align-self-center mt-auto">Oku</a>
+                    </div>
                 </div>
-            </div>
 
-            <!-- Blog Post -->
-            <div class="card m-2" style="width: 25rem; background-color: #f5f5f5;">
-                <div class="card-body d-flex flex-column">
-                    <h4 class="card-title">Pardus 21'de Python Geliştirmek</h4>
-                    <hr>
-                    <p class="card-text">Pardus 21 üzerinde Python ile bir sayı bulmaca oyunu nasıl geliştirilir?</p>
-                    <a href="https://gonullu.pardus.org.tr/pardus-21de-python-gelistirmek/"
-                        class="btn btn-primary align-self-center mt-auto">Oku</a>
+                <!-- Blog Post -->
+                <div class="card m-2" style="width: 25rem; background-color: #f5f5f5;">
+                    <div class="card-body d-flex flex-column">
+                        <h4 class="card-title">Pardus 21'de Python Geliştirmek</h4>
+                        <hr>
+                        <p class="card-text">Pardus 21 üzerinde Python ile bir sayı bulmaca oyunu nasıl geliştirilir?
+                        </p>
+                        <a href="https://gonullu.pardus.org.tr/pardus-21de-python-gelistirmek/"
+                            class="btn btn-primary align-self-center mt-auto">Oku</a>
+                    </div>
                 </div>
-            </div>
 
-            <!-- Blog Post -->
-            <div class="card m-2" style="width: 25rem; background-color: #f5f5f5;">
-                <div class="card-body d-flex flex-column">
-                    <h4 class="card-title">Touch Typing Tavsiyeleri</h4>
-                    <hr>
-                    <p class="card-text">Touch typing'e yeni başlayanlara yardımcı olacağını düşündüğüm tavsiyelerim</p>
-                    <a href="https://www.berkkaraal.com/blog/touch-typing-tavsiyeleri"
-                        class="btn btn-primary align-self-center mt-auto">Oku</a>
+                <!-- Blog Post -->
+                <div class="card m-2" style="width: 25rem; background-color: #f5f5f5;">
+                    <div class="card-body d-flex flex-column">
+                        <h4 class="card-title">Touch Typing Tavsiyeleri</h4>
+                        <hr>
+                        <p class="card-text">Touch typing'e yeni başlayanlara yardımcı olacağını düşündüğüm tavsiyelerim
+                        </p>
+                        <a href="https://www.berkkaraal.com/blog/touch-typing-tavsiyeleri"
+                            class="btn btn-primary align-self-center mt-auto">Oku</a>
+                    </div>
                 </div>
-            </div>
 
+            </div>
         </div>
         <!-- Blogs End -->
 
