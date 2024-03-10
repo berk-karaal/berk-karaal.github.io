@@ -1,1 +1,0 @@
-# berk-karaal.github.io
