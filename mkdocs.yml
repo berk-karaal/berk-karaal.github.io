@@ -1,0 +1,116 @@
+site_name: Berk Karaal
+repo_url: https://github.com/berk-karaal/berk-karaal.github.io
+repo_name: berk-karaal.github.io
+site_url: https://berk-karaal.github.io
+edit_uri: edit/main/docs/
+
+nav:
+  - Home: index.md
+  - Notes:
+      - notes/index.md
+      - Linux:
+          - Utils:
+              - dust: notes/linux/utils/dust.md
+
+  - Blog:
+      - blog/index.md
+
+theme:
+  name: material
+  palette:
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+  language: en
+
+  logo: assets/images/logo.png
+  favicon: assets/images/favicon.ico
+  icon:
+    repo: fontawesome/brands/github
+
+  custom_dir: overrides
+
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - navigation.top
+    - toc.follow
+    - content.code.annotate
+    - content.code.copy
+    - content.action.edit
+
+extra:
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+  social:
+    - icon: fontawesome/solid/envelope
+      link: mailto:iletisim.berkkaraal@gmail.com
+    - icon: fontawesome/brands/github
+      link: https://github.com/berk-karaal
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/berkkaraal/
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/karaal_berk
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/berkkaraal/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@berk_karaal
+
+plugins:
+  - search
+  - blog:
+      pagination_per_page: 7
+      pagination_format: "$link_previous ~2~ $link_next"
+  - tags:
+      tags_file: tags.md
+  - mark-as-read:
+      include:
+        - /notes/.+
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - sane_lists
+  - footnotes
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - abbr
+  - toc:
+      permalink: true
