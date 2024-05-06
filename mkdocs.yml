@@ -14,6 +14,8 @@ nav:
 
   - Blog:
       - blog/index.md
+  - Projects:
+      - projects/index.md
 
 theme:
   name: material
