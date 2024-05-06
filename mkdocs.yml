@@ -80,6 +80,7 @@ plugins:
       pagination_format: "$link_previous ~2~ $link_next"
   - tags:
       tags_file: tags.md
+  - social
   - mark-as-read:
       include:
         - /notes/.+
