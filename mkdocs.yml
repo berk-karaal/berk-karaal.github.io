@@ -81,6 +81,7 @@ plugins:
   - mark-as-read:
       include:
         - /notes/.+
+  - glightbox
 
 markdown_extensions:
   - admonition
