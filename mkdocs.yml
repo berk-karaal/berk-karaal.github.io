@@ -8,7 +8,10 @@ nav:
   - Home: index.md
   - Notes:
       - notes/index.md
-
+      - Linux:
+          - Programs:
+              - dust:
+                  - notes/linux/programs/dust/index.md
   - Blog:
       - blog/index.md
   - Projects:
