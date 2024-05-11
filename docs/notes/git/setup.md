@@ -56,6 +56,9 @@ These global configs are stored in `~/.gitconfig` file.
     Difference between “Authentication Key” and “Signing Key”:
     [stackoverflow.com/a/73674287](https://stackoverflow.com/a/73674287)
 
+    Sign your commits with ssh key:
+    [docs.gitlab.com](https://docs.gitlab.com/ee/user/project/repository/signed_commits/ssh.html)
+
 4. **Test the connection**
 
     In order to use ssh keys first you should add them to your ssh-agent. Use `$ ssh-add` command to
