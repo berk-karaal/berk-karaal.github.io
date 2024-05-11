@@ -1,5 +1,7 @@
 ---
 comments: true
+mark_as_read:
+    updated_at: 2024-05-11
 ---
 
 # Setup Git in a new machine
