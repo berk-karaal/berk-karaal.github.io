@@ -6,9 +6,8 @@ comments: true
 
 ## Install Git
 
-Fedora: `$ sudo dnf install git-all`
-
-Debian: `$ sudo apt install git-all`
+Go to
+[git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
 ## Set Global Configs
 
