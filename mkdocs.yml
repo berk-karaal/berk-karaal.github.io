@@ -12,6 +12,8 @@ nav:
           - Programs:
               - dust:
                   - notes/linux/programs/dust/index.md
+      - Git:
+          - notes/git/setup.md
   - Blog:
       - blog/index.md
   - Projects:
