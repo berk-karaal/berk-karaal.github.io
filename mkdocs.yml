@@ -83,6 +83,12 @@ plugins:
   - tags:
       tags_file: tags.md
   - social
+  - git-revision-date-localized:
+      enable_creation_date: true
+      exclude:
+        - index.md
+        - notes/index.md
+        - projects/index.md
   - mark-as-read:
       include:
         - /notes/.+
