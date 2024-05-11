@@ -4,13 +4,13 @@ hide:
     - toc
 ---
 
+# Projects :tools:
+
 <style>
 .md-content__button.md-icon {
   display: none !important;
 }
 </style>
-
-# Projects
 
 <div class="grid cards" markdown>
 
