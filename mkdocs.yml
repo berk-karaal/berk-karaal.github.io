@@ -9,9 +9,9 @@ nav:
   - Notes:
       - notes/index.md
       - Linux:
-          - Programs:
+          - Commands:
               - dust:
-                  - notes/linux/programs/dust/index.md
+                  - notes/linux/commands/dust/index.md
       - Git:
           - notes/git/setup.md
   - Blog:

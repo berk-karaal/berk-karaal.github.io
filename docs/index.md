@@ -57,7 +57,7 @@ GitHub: :octicons-mark-github-16: [berk-karaal](https://github.com/berk-karaal/)
 
     [:notepad_spiral: Git / Setup Git in a new machine](./notes/git/setup.md)
 
-    [:notepad_spiral: Linux / Programs / dust](./notes/linux/programs/dust/index.md)
+    [:notepad_spiral: Linux / Commands / dust](./notes/linux/commands/dust/index.md)
 
 -   :books: Latest Blogs
 
