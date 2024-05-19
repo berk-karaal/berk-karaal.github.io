@@ -54,11 +54,13 @@ GitHub: :octicons-mark-github-16: [berk-karaal](https://github.com/berk-karaal/)
 
     ---
 
+    [:notepad_spiral: Linux / Commands / watch](./notes/linux/commands/watch/index.md)
+
+    [:notepad_spiral: Linux / Single vs Double Quotes](./notes/linux/single-vs-double-quotes/index.md)
+
     [:notepad_spiral: Linux / Commands / tee](./notes/linux/commands/tee/index.md)
 
     [:notepad_spiral: Git / Setup Git in a new machine](./notes/git/setup.md)
-
-    [:notepad_spiral: Linux / Commands / dust](./notes/linux/commands/dust/index.md)
 
 -   :books: Latest Blogs
 
