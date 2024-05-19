@@ -16,6 +16,9 @@ nav:
                   - notes/linux/commands/tee/index.md
       - Git:
           - notes/git/setup.md
+      - Python:
+          - virtualenv:
+              - notes/python/virtualenv/index.md
   - Blog:
       - blog/index.md
   - Projects:
