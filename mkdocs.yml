@@ -14,6 +14,8 @@ nav:
                   - notes/linux/commands/dust/index.md
               - tee:
                   - notes/linux/commands/tee/index.md
+          - Single vs Double quotes:
+              - notes/linux/single-vs-double-quotes/index.md
       - Git:
           - notes/git/setup.md
       - Python:
