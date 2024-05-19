@@ -16,10 +16,9 @@ glightbox: false
 I'm Berk, computer engineering student and software developer. I'm interested in mostly backend and
 Linux stuff.
 
-[Notes](./notes/index.md) | [Blog](./blog/index.md) | [Projects](./projects/index.md)
-
 GitHub: :octicons-mark-github-16: [berk-karaal](https://github.com/berk-karaal/)
 
+[Notes](./notes/index.md) | [Blog](./blog/index.md) | [Projects](./projects/index.md)
 
 <style>
 .skill-icon {
