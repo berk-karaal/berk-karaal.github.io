@@ -22,7 +22,7 @@ execution date on top while still printing output to screen:
 
 `#!bash $ watch -n 1 'echo -e "- $(date)\n$(YOUR COMMAND)\n" | tee -a outputs.txt'`
 
-> Use may use `free` for `YOUR COMMAND` to see how it works.
+> You may use `free` for `YOUR COMMAND` to see how it works.
 
 ??? warning "Pay attention to usage of single quotes and double quotes" 
 
