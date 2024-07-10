@@ -12,6 +12,8 @@ nav:
           - Commands:
               - dust:
                   - notes/linux/commands/dust/index.md
+              - gpgtar:
+                  - notes/linux/commands/gpgtar/index.md
               - tee:
                   - notes/linux/commands/tee/index.md
               - watch:
