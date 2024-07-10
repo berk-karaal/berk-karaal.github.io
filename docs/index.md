@@ -53,6 +53,7 @@ GitHub: :octicons-mark-github-16: [berk-karaal](https://github.com/berk-karaal/)
 -   :notepad_spiral: Latest Notes
 
     ---
+    [:notepad_spiral: Linux / Commands / gpgtar](./notes/linux/commands/gpgtar/index.md)
 
     [:notepad_spiral: Linux / Commands / watch](./notes/linux/commands/watch/index.md)
 
