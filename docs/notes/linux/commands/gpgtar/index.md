@@ -2,7 +2,7 @@
 
 You can use `gpgtar` command to encrypt a directory with a password.
 
-## TLDR;
+## Example
 
 ```console
 $ tree
