@@ -22,6 +22,8 @@ nav:
               - notes/linux/single-vs-double-quotes/index.md
       - Git:
           - notes/git/setup.md
+          - sparse-checkout:
+              - notes/git/sparse-checkout/index.md
       - Python:
           - virtualenv:
               - notes/python/virtualenv/index.md

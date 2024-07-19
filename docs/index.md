@@ -53,6 +53,8 @@ GitHub: :octicons-mark-github-16: [berk-karaal](https://github.com/berk-karaal/)
 -   :notepad_spiral: Latest Notes
 
     ---
+    [:notepad_spiral: Git / sparse-checkout](./notes/git/sparse-checkout/index.md)
+
     [:notepad_spiral: Linux / Commands / gpgtar](./notes/linux/commands/gpgtar/index.md)
 
     [:notepad_spiral: Linux / Commands / watch](./notes/linux/commands/watch/index.md)
@@ -60,8 +62,6 @@ GitHub: :octicons-mark-github-16: [berk-karaal](https://github.com/berk-karaal/)
     [:notepad_spiral: Linux / Single vs Double Quotes](./notes/linux/single-vs-double-quotes/index.md)
 
     [:notepad_spiral: Linux / Commands / tee](./notes/linux/commands/tee/index.md)
-
-    [:notepad_spiral: Git / Setup Git in a new machine](./notes/git/setup.md)
 
 -   :books: Latest Blogs
 
