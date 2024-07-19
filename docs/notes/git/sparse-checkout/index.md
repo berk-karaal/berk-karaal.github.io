@@ -72,7 +72,7 @@ which files we want to work with. To do that:
 
 **PS:**
 
-- Checkout these commands:
+- Check out these commands:
     - `sparse-checkout init --no-cone`
     - `sparse-checkout list`
     - `sparse-checkout disable`
