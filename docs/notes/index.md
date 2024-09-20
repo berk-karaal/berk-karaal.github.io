@@ -19,7 +19,7 @@ categories you interested in, maybe you find something useful.
 
 :fontawesome-brands-git-alt: [ Git / Setup Git in a new machine](./git/setup.md)
 
-:fontawesome-brands-python: [ Python / virtualenv](./python/virtualenv/index.md1)
+:fontawesome-brands-python: [ Python / virtualenv](./python/virtualenv/index.md)
 
 :fontawesome-brands-linux: [ Linux / Commands / tee](./linux/commands/tee/index.md)
 
