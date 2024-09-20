@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # gpgtar
 
 You can use `gpgtar` command to encrypt a directory with a password.
