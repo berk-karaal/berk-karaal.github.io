@@ -68,6 +68,9 @@ GitHub: :octicons-mark-github-16: [berk-karaal](https://github.com/berk-karaal/)
 
     ---
 
+    :books: [Setup FastAPI Project with Async SQLAlchemy 2, Alembic, PostgreSQL and
+    Docker](./blog/posts/2024-09-19-fastapi-setup/index.md)
+
     :books: [Benim Klavyem Benim
     Tuşlarım](./blog/posts/2023-12-06-benim-klavyem-benim-tuslarim/index.md)
 
