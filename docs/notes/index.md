@@ -7,6 +7,8 @@ categories you interested in, maybe you find something useful.
 
 ## Latest Notes
 
+:fontawesome-solid-file-lines: [ Other / Chrome Disable CORS](./other/chrome-disable-cors/index.md)
+
 :fontawesome-brands-linux: [ Linux / Tips & Tricks / Print Multiple Files Separated With Filenames](./linux/tips-and-tricks/print-multiple-files-separated-with-filename/index.md)
 
 :fontawesome-brands-git-alt: [ Git / sparse-checkout](./git/sparse-checkout/index.md)

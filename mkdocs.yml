@@ -30,6 +30,9 @@ nav:
       - Python:
           - virtualenv:
               - notes/python/virtualenv/index.md
+      - Other:
+          - Chrome Disable CORS:
+              - notes/other/chrome-disable-cors/index.md
   - Blog:
       - blog/index.md
   - Projects:

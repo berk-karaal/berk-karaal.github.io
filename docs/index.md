@@ -53,6 +53,8 @@ GitHub: :octicons-mark-github-16: [berk-karaal](https://github.com/berk-karaal/)
 -   :notepad_spiral: Latest Notes
 
     ---
+    [:notepad_spiral: Other / Chrome Disable CORS](./notes/other/chrome-disable-cors/index.md)
+
     [:notepad_spiral: Linux / Tips & Tricks / Print Multiple Files Separated With
     Filenames](./notes/linux/tips-and-tricks/print-multiple-files-separated-with-filename/index.md)
 
@@ -61,8 +63,6 @@ GitHub: :octicons-mark-github-16: [berk-karaal](https://github.com/berk-karaal/)
     [:notepad_spiral: Linux / Commands / gpgtar](./notes/linux/commands/gpgtar/index.md)
 
     [:notepad_spiral: Linux / Commands / watch](./notes/linux/commands/watch/index.md)
-
-    [:notepad_spiral: Linux / Single vs Double Quotes](./notes/linux/single-vs-double-quotes/index.md)
 
 -   :books: Latest Blogs
 
