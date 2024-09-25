@@ -67,6 +67,7 @@ GitHub: :octicons-mark-github-16: [berk-karaal](https://github.com/berk-karaal/)
 
     ---
     <img src="./assets/skill-icons/python.png" alt="python" class="skill-icon"/>
+    <img src="./assets/skill-icons/go.png" alt="go" class="skill-icon"/>
     <img src="./assets/skill-icons/java.png" alt="java" class="skill-icon"/>
     <img src="./assets/skill-icons/js.png" alt="javascript" class="skill-icon"/>
 
