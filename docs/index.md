@@ -18,8 +18,6 @@ Linux stuff.
 
 GitHub: :octicons-mark-github-16: [berk-karaal](https://github.com/berk-karaal/)
 
-[Notes](./notes/index.md) | [Blog](./blog/index.md) | [Projects](./projects/index.md)
-
 <style>
 .skill-icon {
   width: 2rem;
@@ -27,6 +25,41 @@ GitHub: :octicons-mark-github-16: [berk-karaal](https://github.com/berk-karaal/)
   margin: 0.1rem;
 }
 </style>
+
+<div class="grid cards" markdown>
+
+-   :notepad_spiral: Latest Notes <span style="float:right">[All Notes](./notes/index.md)</span>
+
+    ---
+    [:notepad_spiral: Other / Chrome Disable CORS](./notes/other/chrome-disable-cors/index.md)
+
+    [:notepad_spiral: Linux / Tips & Tricks / Print Multiple Files Separated With
+    Filenames](./notes/linux/tips-and-tricks/print-multiple-files-separated-with-filename/index.md)
+
+    [:notepad_spiral: Git / sparse-checkout](./notes/git/sparse-checkout/index.md)
+
+    [:notepad_spiral: Linux / Commands / gpgtar](./notes/linux/commands/gpgtar/index.md)
+
+    [:notepad_spiral: Linux / Commands / watch](./notes/linux/commands/watch/index.md)
+
+-   :books: Latest Blogs <span style="float:right">[All Blogs](./blog/index.md)</span>
+
+    ---
+
+    :books: [Setup FastAPI Project with Async SQLAlchemy 2, Alembic, PostgreSQL and
+    Docker](./blog/posts/2024-09-19-fastapi-setup/index.md)
+
+    :books: [Benim Klavyem Benim
+    Tuşlarım](./blog/posts/2023-12-06-benim-klavyem-benim-tuslarim/index.md)
+
+    [:books: Debug and Run](./blog/posts/2022-09-30-debug-and-run/index.md)
+
+    [:books: Öğrenmeye ve Geliştirmeye Devam](./blog/posts/2022-06-18-ogrenmeye-ve-gelistirmeye-devam/index.md)
+
+    [:books: Stajda Yeni Görev: API Testleri](./blog/posts/2022-05-05-stajda-yeni-gorev-api-testleri/index.md)
+
+
+</div>
 
 <div class="grid cards" markdown>
 
@@ -44,42 +77,6 @@ GitHub: :octicons-mark-github-16: [berk-karaal](https://github.com/berk-karaal/)
     <img src="./assets/skill-icons/vscode.png" alt="vscode" class="skill-icon">
     <img src="./assets/skill-icons/postman.png" alt="postman" class="skill-icon">
     <img src="./assets/skill-icons/docker.png" alt="docker" class="skill-icon">
-    
-
-</div>
-
-<div class="grid cards" markdown>
-
--   :notepad_spiral: Latest Notes
-
-    ---
-    [:notepad_spiral: Other / Chrome Disable CORS](./notes/other/chrome-disable-cors/index.md)
-
-    [:notepad_spiral: Linux / Tips & Tricks / Print Multiple Files Separated With
-    Filenames](./notes/linux/tips-and-tricks/print-multiple-files-separated-with-filename/index.md)
-
-    [:notepad_spiral: Git / sparse-checkout](./notes/git/sparse-checkout/index.md)
-
-    [:notepad_spiral: Linux / Commands / gpgtar](./notes/linux/commands/gpgtar/index.md)
-
-    [:notepad_spiral: Linux / Commands / watch](./notes/linux/commands/watch/index.md)
-
--   :books: Latest Blogs
-
-    ---
-
-    :books: [Setup FastAPI Project with Async SQLAlchemy 2, Alembic, PostgreSQL and
-    Docker](./blog/posts/2024-09-19-fastapi-setup/index.md)
-
-    :books: [Benim Klavyem Benim
-    Tuşlarım](./blog/posts/2023-12-06-benim-klavyem-benim-tuslarim/index.md)
-
-    [:books: Debug and Run](./blog/posts/2022-09-30-debug-and-run/index.md)
-
-    [:books: Öğrenmeye ve Geliştirmeye Devam](./blog/posts/2022-06-18-ogrenmeye-ve-gelistirmeye-devam/index.md)
-
-    [:books: Stajda Yeni Görev: API Testleri](./blog/posts/2022-05-05-stajda-yeni-gorev-api-testleri/index.md)
-
 
 </div>
 
