@@ -1,6 +1,7 @@
 ---
 date: 2024-12-06
-
+description:
+    A quick introduction to Just command runner. What is it and how to use it?
 comments: true
 ---
 
