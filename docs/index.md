@@ -45,6 +45,7 @@ GitHub: :octicons-mark-github-16: [berk-karaal](https://github.com/berk-karaal/)
 -   :books: Latest Blogs <span style="float:right">[All Blogs](./blog/index.md)</span>
 
     ---
+    :books: [Just, start using it!](./blog/posts/2024-12-06-just-start-using-it/index.md)
 
     :books: [Setup FastAPI Project with Async SQLAlchemy 2, Alembic, PostgreSQL and
     Docker](./blog/posts/2024-09-19-fastapi-setup/index.md)
@@ -55,9 +56,6 @@ GitHub: :octicons-mark-github-16: [berk-karaal](https://github.com/berk-karaal/)
     [:books: Debug and Run](./blog/posts/2022-09-30-debug-and-run/index.md)
 
     [:books: Öğrenmeye ve Geliştirmeye Devam](./blog/posts/2022-06-18-ogrenmeye-ve-gelistirmeye-devam/index.md)
-
-    [:books: Stajda Yeni Görev: API Testleri](./blog/posts/2022-05-05-stajda-yeni-gorev-api-testleri/index.md)
-
 
 </div>
 
