@@ -16,6 +16,8 @@ nav:
                   - notes/linux/commands/gpgtar/index.md
               - tee:
                   - notes/linux/commands/tee/index.md
+              - tmux:
+                  - notes/linux/commands/tmux/index.md
               - watch:
                   - notes/linux/commands/watch/index.md
           - Tips & Tricks:

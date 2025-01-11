@@ -19,6 +19,9 @@ categories you interested in, maybe you find something useful.
 
 ## Latest Notes
 
+:fontawesome-brands-linux: [ Linux / Commands / tmux](./linux/commands/tmux/index.md)
+{.note-link}
+
 :fontawesome-solid-file-lines: [ Other / Chrome Disable CORS](./other/chrome-disable-cors/index.md)
 {.note-link}
 
