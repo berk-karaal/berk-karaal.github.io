@@ -29,6 +29,8 @@ nav:
           - notes/git/setup.md
           - sparse-checkout:
               - notes/git/sparse-checkout/index.md
+          - tilde-and-caret:
+              - notes/git/tilde-and-caret/index.md
       - Python:
           - virtualenv:
               - notes/python/virtualenv/index.md
