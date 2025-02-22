@@ -31,6 +31,8 @@ GitHub: :octicons-mark-github-16: [berk-karaal](https://github.com/berk-karaal/)
 -   :notepad_spiral: Latest Notes <span style="float:right">[All Notes](./notes/index.md)</span>
 
     ---
+    [:notepad_spiral: Git / tilde-and-caret](./notes/git/tilde-and-caret/index.md)
+
     [:notepad_spiral: Other / Chrome Disable CORS](./notes/other/chrome-disable-cors/index.md)
 
     [:notepad_spiral: Linux / Tips & Tricks / Print Multiple Files Separated With
@@ -39,8 +41,6 @@ GitHub: :octicons-mark-github-16: [berk-karaal](https://github.com/berk-karaal/)
     [:notepad_spiral: Git / sparse-checkout](./notes/git/sparse-checkout/index.md)
 
     [:notepad_spiral: Linux / Commands / gpgtar](./notes/linux/commands/gpgtar/index.md)
-
-    [:notepad_spiral: Linux / Commands / watch](./notes/linux/commands/watch/index.md)
 
 -   :books: Latest Blogs <span style="float:right">[All Blogs](./blog/index.md)</span>
 

@@ -19,6 +19,9 @@ categories you interested in, maybe you find something useful.
 
 ## Latest Notes
 
+:fontawesome-brands-git-alt: [ Git / tilde-and-caret](./git/tilde-and-caret/index.md)
+{.note-link}
+
 :fontawesome-brands-linux: [ Linux / Commands / tmux](./linux/commands/tmux/index.md)
 {.note-link}
 
