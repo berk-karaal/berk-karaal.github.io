@@ -43,7 +43,7 @@ nav:
       - projects/index.md
 
 theme:
-  name: material
+  name: materialx
   palette:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
@@ -103,11 +103,12 @@ plugins:
   - blog:
       pagination_per_page: 7
       pagination_format: "$link_previous ~2~ $link_next"
-  - tags:
-      tags_file: tags.md
-  - social
-  - git-revision-date-localized:
-      enable_creation_date: true
+  - tags
+  - social:
+      cards: !ENV [CI, false]
+  - document-dates:
+      position: bottom
+      show_author: false
       exclude:
         - index.md
         - notes/index.md

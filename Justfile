@@ -4,4 +4,4 @@ default:
 
 # Start the development server
 serve:
-    mkdocs serve -w overrides/
+    properdocs serve -w overrides/
