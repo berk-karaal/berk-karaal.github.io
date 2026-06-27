@@ -1,4 +1,4 @@
-mkdocs-material[imaging]==9.5.22
-mkdocs-git-revision-date-localized-plugin==1.2.5
+mkdocs-materialx[imaging]==10.1.8
+properdocs==1.6.7
 mkdocs-material-mark-as-read
 mkdocs-glightbox
