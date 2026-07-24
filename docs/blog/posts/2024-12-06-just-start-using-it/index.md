@@ -214,3 +214,22 @@ Cheat Sheet to explore Just features quickly:
   [cheatography.com/linux-china/cheat-sheets/justfile/](https://cheatography.com/linux-china/cheat-sheets/justfile/)
 
 Ohh, did I mention that Just is written in Rust?
+
+---
+
+Template:
+
+```
+# List available recipes
+default:
+    @just --list --justfile {{justfile()}}
+
+# Build the project for a specific environment (Required argument)
+build env:
+    @echo "Building for environment: {{env}}..."
+    # e.g., ./scripts/build.sh {{env}}
+
+# Greet a user (Optional argument with a default value)
+greet name="World":
+    @echo "Hello, {{name}}!"
+```
