@@ -41,6 +41,8 @@ nav:
       - blog/index.md
   - Projects:
       - projects/index.md
+  - Open Source Contributions:
+      - contributions/index.md
 
 theme:
   name: materialx
@@ -113,6 +115,7 @@ plugins:
         - index.md
         - notes/index.md
         - projects/index.md
+        - contributions/index.md
   - mark-as-read:
       include:
         - /notes/.+
@@ -121,6 +124,8 @@ plugins:
       collections:
         - name: projects
           file: bookmarks/projects.yml
+        - name: contributions
+          file: bookmarks/contributions.yml
 
 markdown_extensions:
   - admonition

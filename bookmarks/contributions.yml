@@ -1,0 +1,63 @@
+tags:
+  - bugfix
+  - docs
+  - feature
+  - go
+  - markdown
+  - typescript
+
+bookmarks:
+  - title: argoproj/argo-rollouts
+    description: >-
+      Traced a blank-screen dashboard crash to an unguarded null dereference in the analysis metric
+      chart tooltip, hit whenever a measurement value failed to parse. Fixed it at the crash site
+      and extracted the label logic into a pure helper, unit tested against every unchartable value
+      the data layer can produce.
+    tags: [typescript, bugfix]
+    links:
+      - text: Pull Request
+        url: https://github.com/argoproj/argo-rollouts/pull/4744
+
+  - title: swaggo/swag
+    description: >-
+      Added newline escaping to `@description` annotations, letting long descriptions span multiple
+      source lines without leaking line breaks into the generated Swagger UI.
+    tags: [go, feature]
+    links:
+      - text: Pull Request
+        url: https://github.com/swaggo/swag/pull/2048
+
+  - title: swaggo/swag
+    description: >-
+      Fixed generics failing to resolve for function-scoped types, a gap left by an earlier
+      refactor that stopped setting their schema name.
+    tags: [go, bugfix]
+    links:
+      - text: Pull Request
+        url: https://github.com/swaggo/swag/pull/1883
+
+  - title: blueswen/mkdocs-glightbox
+    description: >-
+      Repaired the broken anchor links in the README's flexibility section so its cross-references
+      resolve again.
+    tags: [markdown, docs]
+    links:
+      - text: Pull Request
+        url: https://github.com/blueswen/mkdocs-glightbox/pull/42
+
+  - title: squidfunk/mkdocs-material
+    description: >-
+      Corrected the blog plugin's documented `pagination_url_format` default, which contradicted
+      the value actually declared in the plugin's config source.
+    tags: [markdown, docs]
+    links:
+      - text: Pull Request
+        url: https://github.com/squidfunk/mkdocs-material/pull/6878
+
+  - title: linuxmint/doc-developer-guide
+    description: >-
+      Replaced a dead SpiderMonkey documentation link.
+    tags: [docs]
+    links:
+      - text: Pull Request
+        url: https://github.com/linuxmint/doc-developer-guide/pull/12
