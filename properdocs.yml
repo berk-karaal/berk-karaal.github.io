@@ -117,6 +117,10 @@ plugins:
       include:
         - /notes/.+
   - glightbox
+  - materialx-bookmarks:
+      collections:
+        - name: projects
+          file: bookmarks/projects.yml
 
 markdown_extensions:
   - admonition

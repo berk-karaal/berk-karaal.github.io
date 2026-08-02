@@ -1,0 +1,50 @@
+tags:
+  - javascript
+  - linux
+  - mkdocs
+  - python
+
+bookmarks:
+  - title: Cinnamon DE Horizontal OSD Extension
+    description:
+      An extension for Cinnamon Desktop Environment to show OSD notifications horizontally. It's also
+      highly customizable for styling.
+    tags: [javascript, linux]
+    links:
+      - text: GitHub
+        url: https://github.com/berk-karaal/cinnamon-horizontal-osd
+      - text: Cinnamon Spices
+        url: https://cinnamon-spices.linuxmint.com/extensions/view/93
+
+  - title: mkdocs-material-mark-as-read
+    description:
+      A plugin for MkDocs Material theme to mark the pages as read. It helps users to keep track of
+      their reading progress through the website.
+    tags: [python, javascript, mkdocs]
+    links:
+      - text: GitHub
+        url: https://github.com/berk-karaal/mkdocs-material-mark-as-read
+
+  - title: materialx-bookmarks
+    description:
+      A bookmark list component for mkdocs-materialx. Write your links in YAML, drop one fence into
+      any page, and readers get search, tag filtering, sorting and pagination.
+    tags: [python, javascript, mkdocs]
+    links:
+      - text: GitHub
+        url: https://github.com/berk-karaal/materialx-bookmarks
+
+  - title: ppager
+    description: "`less` like pager written in Python."
+    tags: [python]
+    links:
+      - text: GitHub
+        url: https://github.com/berk-karaal/ppager
+
+  - title: Old Projects
+    description: >-
+      Some small and fun projects I made before university. I published these projects on a website
+      to apply for a scholarship program. I still keep them for memory :smile:
+    links:
+      - text: Website
+        url: https://berkkaraal.blogspot.com
