@@ -19,6 +19,9 @@ categories you interested in, maybe you find something useful.
 
 ## Latest Notes
 
+:fontawesome-brands-linux: [ Linux / Commands / curl](./linux/commands/curl/index.md)
+{.note-link}
+
 :fontawesome-brands-git-alt: [ Git / tilde-and-caret](./git/tilde-and-caret/index.md)
 {.note-link}
 

@@ -34,6 +34,8 @@ Contributions](./contributions/index.md)
 -   :notepad_spiral: Latest Notes <span style="float:right">[All Notes](./notes/index.md)</span>
 
     ---
+    [:notepad_spiral: Linux / Commands / curl](./notes/linux/commands/curl/index.md)
+
     [:notepad_spiral: Git / tilde-and-caret](./notes/git/tilde-and-caret/index.md)
 
     [:notepad_spiral: Other / Chrome Disable CORS](./notes/other/chrome-disable-cors/index.md)

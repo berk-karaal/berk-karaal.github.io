@@ -10,6 +10,8 @@ nav:
       - notes/index.md
       - Linux:
           - Commands:
+              - curl:
+                  - notes/linux/commands/curl/index.md
               - dust:
                   - notes/linux/commands/dust/index.md
               - gpgtar:
