@@ -19,6 +19,9 @@ categories you interested in, maybe you find something useful.
 
 ## Latest Notes
 
+:fontawesome-solid-file-lines: [ Other / VSCode Settings](./other/vscode-settings/index.md)
+{.note-link}
+
 :fontawesome-brands-linux: [ Linux / Commands / curl](./linux/commands/curl/index.md)
 {.note-link}
 

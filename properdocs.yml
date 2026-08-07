@@ -39,6 +39,8 @@ nav:
       - Other:
           - Chrome Disable CORS:
               - notes/other/chrome-disable-cors/index.md
+          - VSCode Settings:
+              - notes/other/vscode-settings/index.md
   - Blog:
       - blog/index.md
   - Projects:

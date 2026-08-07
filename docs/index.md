@@ -34,6 +34,8 @@ Contributions](./contributions/index.md)
 -   :notepad_spiral: Latest Notes <span style="float:right">[All Notes](./notes/index.md)</span>
 
     ---
+    [:notepad_spiral: Other / VSCode Settings](./notes/other/vscode-settings/index.md)
+
     [:notepad_spiral: Linux / Commands / curl](./notes/linux/commands/curl/index.md)
 
     [:notepad_spiral: Git / tilde-and-caret](./notes/git/tilde-and-caret/index.md)
@@ -42,10 +44,6 @@ Contributions](./contributions/index.md)
 
     [:notepad_spiral: Linux / Tips & Tricks / Print Multiple Files Separated With
     Filenames](./notes/linux/tips-and-tricks/print-multiple-files-separated-with-filename/index.md)
-
-    [:notepad_spiral: Git / sparse-checkout](./notes/git/sparse-checkout/index.md)
-
-    [:notepad_spiral: Linux / Commands / gpgtar](./notes/linux/commands/gpgtar/index.md)
 
 -   :books: Latest Blogs <span style="float:right">[All Blogs](./blog/index.md)</span>
 
