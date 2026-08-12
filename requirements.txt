@@ -2,4 +2,4 @@ mkdocs-materialx[imaging]==10.1.8
 properdocs==1.6.7
 mkdocs-material-mark-as-read
 mkdocs-glightbox
-materialx-bookmarks==0.3.0
+materialx-bookmarks==0.4.0

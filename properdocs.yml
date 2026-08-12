@@ -128,8 +128,12 @@ plugins:
       collections:
         - name: projects
           file: bookmarks/projects.yml
+          item_name: project
+          item_name_plural: projects
         - name: contributions
           file: bookmarks/contributions.yml
+          item_name: contribution
+          item_name_plural: contributions
 
 markdown_extensions:
   - admonition
