@@ -47,6 +47,8 @@ nav:
       - projects/index.md
   - Open Source Contributions:
       - contributions/index.md
+  - Bookmarks:
+      - bookmarks/index.md
 
 theme:
   name: materialx
@@ -126,6 +128,8 @@ plugins:
   - glightbox
   - materialx-bookmarks:
       collections:
+        - name: bookmarks
+          file: bookmarks/bookmarks.yml
         - name: projects
           file: bookmarks/projects.yml
           item_name: project
