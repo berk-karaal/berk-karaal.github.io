@@ -1,7 +1,14 @@
 tags:
   - AI
+  - Other
 
 bookmarks:
+  - title: Subdomain Index
+    description: crt.name - Give it an apex domain. You get every subdomain on file, plus the date each name first showed up.
+    tags: [Other]
+    links:
+      - text: Website
+        url: https://crt.name/
   - title: Coding Agents Benchmark (artificialanalysis.ai)
     description:
     tags: [AI]
