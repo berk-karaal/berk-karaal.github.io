@@ -1,6 +1,7 @@
 tags:
   - AI
   - Other
+  - macOS App
 
 bookmarks:
   - title: Subdomain Index
@@ -9,9 +10,52 @@ bookmarks:
     links:
       - text: Website
         url: https://crt.name/
+  
   - title: Coding Agents Benchmark (artificialanalysis.ai)
     description:
     tags: [AI]
     links:
       - text: Website
         url: https://artificialanalysis.ai/agents/coding-agents
+
+  - title: macshot
+    description: Screenshot app
+    tags: [macOS App]
+    links:
+      - text: GitHub
+        url: https://github.com/sw33tlie/macshot
+
+  - title: icebar
+    description: Menubar manager
+    tags: [macOS App]
+    links:
+      - text: GitHub
+        url: https://github.com/jordanbaird/Ice
+
+  - title: MeetingBar
+    description: Shows when the upcoming meeting starts/ends
+    tags: [macOS App]
+    links:
+      - text: GitHub
+        url: https://github.com/leits/MeetingBar
+
+  - title: rectangle
+    description: Window snap
+    tags: [macOS App]
+    links:
+      - text: GitHub
+        url: https://github.com/rxhanson/rectangle
+
+  - title: stats
+    description: System monitor in menu bar
+    tags: [macOS App]
+    links:
+      - text: GitHub
+        url: https://github.com/exelban/stats
+
+  - title: Raycast
+    description: Launcher
+    tags: [macOS App]
+    links:
+      - text: GitHub
+        url: https://www.raycast.com
