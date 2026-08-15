@@ -5,7 +5,7 @@ tags:
   - Coding
 
 bookmarks:
-  - title: MC/DC Coverage
+  - title: MC/DC (Mofidied Condition/Decision Coverage) Coverage
     description: |
         An advanced code coverage method that requires every possible decision/condition combination is covered independently.
         Some high-risk industries such as aviation and medical requires this method.
