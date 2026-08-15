@@ -2,8 +2,18 @@ tags:
   - AI
   - Other
   - macOS App
+  - Coding
 
 bookmarks:
+  - title: MC/DC Coverage
+    description: |
+        An advanced code coverage method that requires every possible decision/condition combination is covered independently.
+        Some high-risk industries such as aviation and medical requires this method.
+    tags: [Coding]
+    links:
+      - text: Wikipedia
+        url: https://en.wikipedia.org/wiki/Modified_condition/decision_coverage
+
   - title: Subdomain Index
     description: crt.name - Give it an apex domain. You get every subdomain on file, plus the date each name first showed up.
     tags: [Other]
