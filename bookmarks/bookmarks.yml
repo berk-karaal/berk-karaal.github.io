@@ -28,6 +28,13 @@ bookmarks:
       - text: Website
         url: https://artificialanalysis.ai/agents/coding-agents
 
+  - title: vorssaint-utils
+    description: macOS menu bar toolkit
+    tags: [macOS App]
+    links:
+      - text: GitHub
+        url: https://github.com/vorssaint/vorssaint-utils
+
   - title: macshot
     description: Screenshot app
     tags: [macOS App]
