@@ -4,8 +4,17 @@ tags:
   - macOS App
   - Coding
   - Linux App
+  - Agentic
 
 bookmarks:
+  - title: drawio-skill
+    description: |
+        Coding agent drawio diagram generation skill.
+    tags: [Agentic]
+    links:
+      - text: GitHub
+        url: https://github.com/Agents365-ai/drawio-skill
+
   - title: limux
     description: |
         Terminal multiplexer like cmux for linux.
