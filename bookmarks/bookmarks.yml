@@ -3,8 +3,17 @@ tags:
   - Other
   - macOS App
   - Coding
+  - Linux App
 
 bookmarks:
+  - title: limux
+    description: |
+        Terminal multiplexer like cmux for linux.
+    tags: [Linux App]
+    links:
+      - text: GitHub
+        url: https://github.com/am-will/limux
+
   - title: MC/DC (Mofidied Condition/Decision Coverage) Coverage
     description: |
         An advanced code coverage method that requires every possible decision/condition combination is covered independently.
