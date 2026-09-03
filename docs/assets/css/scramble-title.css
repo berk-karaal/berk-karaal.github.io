@@ -1,0 +1,12 @@
+.scramble-word {
+  white-space: nowrap;
+}
+
+.scramble-char.is-locked {
+  display: inline-block;
+  text-align: center;
+}
+
+.scramble-char.is-scrambling {
+  color: var(--md-accent-fg-color);
+}

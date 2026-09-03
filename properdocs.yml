@@ -106,6 +106,12 @@ extra:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/@berk_karaal
 
+extra_css:
+  - assets/css/scramble-title.css
+
+extra_javascript:
+  - assets/js/scramble-title.js
+
 plugins:
   - search
   - blog:
