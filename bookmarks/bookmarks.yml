@@ -9,6 +9,15 @@ tags:
   - Tools
 
 bookmarks:
+  - title: httpYac
+    description: |
+        Send and test HTTP requests from .http files right inside VS Code, responses shown in the
+        editor. Supports variables, environments and assertions; also has a CLI.
+    tags: [Tools, Coding]
+    links:
+      - text: Website
+        url: https://httpyac.github.io/guide/installation_vscode.html#installation
+
   - title: witr
     description: |
         CLI and TUI that traces a running process, port, container or open file back to what
