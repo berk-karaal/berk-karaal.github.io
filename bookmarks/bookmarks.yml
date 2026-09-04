@@ -7,6 +7,14 @@ tags:
   - Agentic
 
 bookmarks:
+  - title: 1.111B Class .xyz Domains
+    description: |
+        6-9 digit numeric .xyz domains (000000.xyz to 999999999.xyz) for 99¢ a year, every year.
+    tags: [Other]
+    links:
+      - text: Website
+        url: https://gen.xyz/number
+
   - title: LiteLLM
     description: |
         Open source LLM gateway that puts 100+ model providers behind a single OpenAI-compatible API.
