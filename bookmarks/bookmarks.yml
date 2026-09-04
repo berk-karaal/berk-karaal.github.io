@@ -7,6 +7,17 @@ tags:
   - Agentic
 
 bookmarks:
+  - title: LiteLLM
+    description: |
+        Open source LLM gateway that puts 100+ model providers behind a single OpenAI-compatible API.
+        Self-hostable proxy with key management, spend tracking and budgets per team.
+    tags: [AI]
+    links:
+      - text: Website
+        url: https://www.litellm.ai/
+      - text: GitHub
+        url: https://github.com/BerriAI/litellm
+
   - title: drawio-skill
     description: |
         Coding agent drawio diagram generation skill.
