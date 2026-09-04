@@ -9,6 +9,16 @@ tags:
   - Tools
 
 bookmarks:
+  - title: croc
+    description: |
+        Send files and folders between any two computers from the terminal, using a short code
+        phrase. End-to-end encrypted, peer-to-peer with relay fallback, no setup or port
+        forwarding.
+    tags: [Tools]
+    links:
+      - text: GitHub
+        url: https://github.com/schollz/croc
+
   - title: fresh
     description: |
         Terminal text editor that brings VS Code / Sublime style UX to the command line: standard
