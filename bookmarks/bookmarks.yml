@@ -5,8 +5,19 @@ tags:
   - Coding
   - Linux App
   - Agentic
+  - CI/CD
 
 bookmarks:
+  - title: zizmor
+    description: |
+        Static analysis tool for CI/CD configs. Finds and fixes security issues in GitHub Actions
+        workflows, Dependabot and pre-commit: template injection, credential leaks, overly broad
+        permissions.
+    tags: [CI/CD]
+    links:
+      - text: GitHub
+        url: https://github.com/zizmorcore/zizmor
+
   - title: 1.111B Class .xyz Domains
     description: |
         6-9 digit numeric .xyz domains (000000.xyz to 999999999.xyz) for 99¢ a year, every year.
