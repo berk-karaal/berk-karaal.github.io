@@ -140,6 +140,8 @@ plugins:
         - name: bookmarks
           file: bookmarks/bookmarks.yml
           display: blocks
+          tag_sorting: count
+          per_page_options: [10, 20, 50, all]
         - name: projects
           file: bookmarks/projects.yml
           display: blocks
