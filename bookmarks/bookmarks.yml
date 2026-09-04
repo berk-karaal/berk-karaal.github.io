@@ -9,6 +9,15 @@ tags:
   - Tools
 
 bookmarks:
+  - title: delta
+    description: |
+        Better diff visualizer for git. Syntax-highlighted, word-level diffs with line numbers
+        and an optional side-by-side view; drop-in replacement for the default git pager.
+    tags: [Tools, Coding]
+    links:
+      - text: GitHub
+        url: https://github.com/dandavison/delta
+
   - title: croc
     description: |
         Send files and folders between any two computers from the terminal, using a short code
