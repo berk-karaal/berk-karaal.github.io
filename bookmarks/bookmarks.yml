@@ -6,8 +6,18 @@ tags:
   - Linux App
   - Agentic
   - CI/CD
+  - Tools
 
 bookmarks:
+  - title: witr
+    description: |
+        CLI and TUI that traces a running process, port, container or open file back to what
+        started it: ancestry chain, service manager, working dir. Cross-platform.
+    tags: [Tools]
+    links:
+      - text: GitHub
+        url: https://github.com/pranshuparmar/witr
+
   - title: qmd
     description: |
         On-device search engine for markdown notes and docs. Keyword, vector and hybrid search
