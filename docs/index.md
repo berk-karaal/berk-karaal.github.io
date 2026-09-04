@@ -13,8 +13,7 @@ glightbox: false
 
 # Hi there!
 
-I'm Berk, computer engineering student and software developer. I'm interested in mostly backend and
-Linux stuff.
+I'm Berk, interested in mostly backend and Linux stuff.
 
 GitHub: :octicons-mark-github-16: [berk-karaal](https://github.com/berk-karaal/)
 
