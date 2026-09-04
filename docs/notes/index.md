@@ -19,6 +19,9 @@ categories you interested in, maybe you find something useful.
 
 ## Latest Notes
 
+:fontawesome-solid-cube: [ Apps / Termux](./apps/termux/index.md)
+{.note-link}
+
 :fontawesome-solid-file-lines: [ Other / VSCode Settings](./other/vscode-settings/index.md)
 {.note-link}
 

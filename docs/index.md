@@ -34,6 +34,8 @@ Contributions](./contributions/index.md)
 -   :notepad_spiral: Latest Notes <span style="float:right">[All Notes](./notes/index.md)</span>
 
     ---
+    [:notepad_spiral: Apps / Termux](./notes/apps/termux/index.md)
+
     [:notepad_spiral: Other / VSCode Settings](./notes/other/vscode-settings/index.md)
 
     [:notepad_spiral: Linux / Commands / curl](./notes/linux/commands/curl/index.md)
@@ -41,9 +43,6 @@ Contributions](./contributions/index.md)
     [:notepad_spiral: Git / tilde-and-caret](./notes/git/tilde-and-caret/index.md)
 
     [:notepad_spiral: Other / Chrome Disable CORS](./notes/other/chrome-disable-cors/index.md)
-
-    [:notepad_spiral: Linux / Tips & Tricks / Print Multiple Files Separated With
-    Filenames](./notes/linux/tips-and-tricks/print-multiple-files-separated-with-filename/index.md)
 
 -   :books: Latest Blogs <span style="float:right">[All Blogs](./blog/index.md)</span>
 

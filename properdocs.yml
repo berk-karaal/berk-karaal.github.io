@@ -36,6 +36,9 @@ nav:
       - Python:
           - virtualenv:
               - notes/python/virtualenv/index.md
+      - Apps:
+          - Termux:
+              - notes/apps/termux/index.md
       - Other:
           - Chrome Disable CORS:
               - notes/other/chrome-disable-cors/index.md
