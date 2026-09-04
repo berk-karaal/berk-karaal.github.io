@@ -8,6 +8,15 @@ tags:
   - CI/CD
 
 bookmarks:
+  - title: qmd
+    description: |
+        On-device search engine for markdown notes and docs. Keyword, vector and hybrid search
+        running locally, exposed over MCP for agents.
+    tags: [AI]
+    links:
+      - text: GitHub
+        url: https://github.com/tobi/qmd
+
   - title: zizmor
     description: |
         Static analysis tool for CI/CD configs. Finds and fixes security issues in GitHub Actions
