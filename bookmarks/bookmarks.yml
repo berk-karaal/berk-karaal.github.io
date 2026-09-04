@@ -9,6 +9,15 @@ tags:
   - Tools
 
 bookmarks:
+  - title: csvlens
+    description: |
+        Terminal CSV viewer, like less but for CSV. Scroll, search, filter, sort and freeze
+        columns from the command line.
+    tags: [Tools]
+    links:
+      - text: GitHub
+        url: https://github.com/YS-L/csvlens
+
   - title: httpYac
     description: |
         Send and test HTTP requests from .http files right inside VS Code, responses shown in the
