@@ -42,6 +42,9 @@ Details vary between tools, but most implementations share the same shape:
   are read, so a stray `.bak` or editor swap file is ignored.
 - **Section header.** Some tools need the file to start with a section header so the parser knows
   where the keys belong, like `[main]` for dnf.
+- **Main file precedence varies.** systemd parses drop-ins after the unit file, so they win. dnf5
+  parses `/etc/dnf/dnf.conf` after its drop-ins, so the main file wins. Check the tool's man page
+  before relying on either.
 
 ## Where you will see it
 
@@ -78,3 +81,16 @@ manager will never overwrite it, and it survives upgrades of the main config. Wh
 supports a drop-in directory, reach for it first. If it has no drop-in directory, the next best
 option is an `Include` directive in the main file. Only when neither exists do you take over the
 main file itself.
+
+## Further reading
+
+- [sysctl.d(5)](https://www.freedesktop.org/software/systemd/man/latest/sysctl.d.html), section
+  "Configuration Directories and Precedence". The closest thing to a spec: search path order,
+  lexicographic sorting, `/dev/null` masking, and the suggested `10-40` vendor / `60-90` admin
+  numbering.
+- [systemd.unit(5)](https://www.freedesktop.org/software/systemd/man/latest/systemd.unit.html)
+  documents `foo.service.d/` drop-ins and their precedence over the unit file.
+- [dnf5.conf(5)](https://dnf5.readthedocs.io/en/latest/dnf5.conf.5.html) documents
+  `/etc/dnf/libdnf5.conf.d/` and the read order.
+- [Understanding *.d directories in /etc](https://www.redhat.com/sysadmin/etc-configuration-directories)
+  by Susan Lauber. A readable overview with logrotate, cron, pam and Apache examples.
