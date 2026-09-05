@@ -7,8 +7,19 @@ tags:
   - Agentic
   - CI/CD
   - Tools
+  - k8s
 
 bookmarks:
+  - title: Knative
+    description: |
+        Serverless on your own Kubernetes cluster. Serving runs containers behind HTTP and
+        scales them with traffic, down to zero when idle; Eventing wires services together
+        with an event broker, so you get Lambda-style deployment without leaving Kubernetes.
+    tags: [k8s]
+    links:
+      - text: Website
+        url: https://knative.dev/
+
   - title: dust
     description: |
         More intuitive du. Shows which directories eat the disk space, sorted by size with
