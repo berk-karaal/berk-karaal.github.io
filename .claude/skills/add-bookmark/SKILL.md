@@ -5,6 +5,22 @@ description: Use when adding a bookmark (a URL, tool, website, library, or tech 
 
 # Adding a Bookmark
 
+## What bookmarks are
+
+The bookmarks page is Berk's public collection of things found on the web that seemed worth
+keeping: tools, libraries, websites, articles. Each entry exists so it can be found again later
+through the page's search and tag filters, without remembering the exact name.
+
+The page has two readers, and every entry serves both:
+
+- **Berk, months later**, searching for "that terminal file transfer thing". Title, description
+  and tags are the search surface, so they must carry the words someone would search for.
+- **A visitor** browsing the page cold. The description should let them understand what the
+  bookmarked thing is and what it is used for, so they can decide whether to click through.
+
+An entry does its job when a reader who has never heard of the item knows, after one read,
+what problem it solves.
+
 ## Overview
 
 Bookmarks live in `bookmarks/bookmarks.yml`, rendered on `/bookmarks/` by the
@@ -34,10 +50,17 @@ the page could not be fetched.
 
 - **Title**: the project/site's own name (e.g. repo name, product name). Keep the user's phrasing
   if they supplied one.
-- **Description**: one or two short sentences explaining what the tool is and what it's used for.
-  Plain wording, no marketing language.
+- **Description**: plain, simple wording that explains what the item is and the use case it
+  serves. Lead with the problem it solves or the thing it replaces, then the one or two traits
+  that make it worth bookmarking. Short is preferred; a longer description is fine when the item
+  is complex and a short one would leave the reader guessing. No marketing language, no feature
+  lists copied from the project's README.
 
 ### 3. Pick tags and links
+
+Tags are the second search surface after the description: a visitor filters by tag to browse
+a category, so pick the tags a reader would expect the item under, not the most specific
+possible label.
 
 Tags MUST come from the `tags:` list at the top of `bookmarks.yml` — a tag that is not declared
 there fails the site build. If none fits, propose a new tag in the preview; it is only created
@@ -91,5 +114,7 @@ explicitly requested them. Commit message follows the existing history style:
 
 - **Tag not in the `tags:` list.** An undeclared tag fails the site build.
 - **Appending to the bottom.** New entries go at the top of the list.
-- **Long or promotional descriptions.** Match the terse tone of existing entries.
+- **Promotional descriptions.** Match the plain tone of existing entries; state what it does.
+- **Descriptions that assume the reader knows the item.** A visitor should understand the use
+  case without clicking through.
 - **Committing unrelated files.** Stage `bookmarks/bookmarks.yml` only.
