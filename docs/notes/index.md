@@ -19,6 +19,9 @@ categories you interested in, maybe you find something useful.
 
 ## Latest Notes
 
+:fontawesome-brands-linux: [ Linux / Drop-in Config Directories](./linux/drop-in-config-directories/index.md)
+{.note-link}
+
 :fontawesome-brands-linux: [ Linux / Commands / visudo](./linux/commands/visudo/index.md)
 {.note-link}
 
