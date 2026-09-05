@@ -19,6 +19,9 @@ categories you interested in, maybe you find something useful.
 
 ## Latest Notes
 
+:fontawesome-brands-linux: [ Linux / Commands / visudo](./linux/commands/visudo/index.md)
+{.note-link}
+
 :fontawesome-solid-cube: [ Apps / Termux](./apps/termux/index.md)
 {.note-link}
 

@@ -22,6 +22,8 @@ nav:
                   - notes/linux/commands/tmux/index.md
               - watch:
                   - notes/linux/commands/watch/index.md
+              - visudo:
+                  - notes/linux/commands/visudo/index.md
           - Tips & Tricks:
               - Print Multiple Files Separated with Filename:
                   - notes/linux/tips-and-tricks/print-multiple-files-separated-with-filename/index.md

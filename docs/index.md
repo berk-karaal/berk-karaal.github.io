@@ -33,6 +33,8 @@ Contributions](./contributions/index.md)
 -   :notepad_spiral: Latest Notes <span style="float:right">[All Notes](./notes/index.md)</span>
 
     ---
+    [:notepad_spiral: Linux / Commands / visudo](./notes/linux/commands/visudo/index.md)
+
     [:notepad_spiral: Apps / Termux](./notes/apps/termux/index.md)
 
     [:notepad_spiral: Other / VSCode Settings](./notes/other/vscode-settings/index.md)
@@ -40,8 +42,6 @@ Contributions](./contributions/index.md)
     [:notepad_spiral: Linux / Commands / curl](./notes/linux/commands/curl/index.md)
 
     [:notepad_spiral: Git / tilde-and-caret](./notes/git/tilde-and-caret/index.md)
-
-    [:notepad_spiral: Other / Chrome Disable CORS](./notes/other/chrome-disable-cors/index.md)
 
 -   :books: Latest Blogs <span style="float:right">[All Blogs](./blog/index.md)</span>
 
