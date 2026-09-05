@@ -81,11 +81,30 @@ SSH:
 
 ## Why it matters for dotfiles
 
-A symlink dropped into a `.d` directory adds one file that nothing else claims. The package
-manager will never overwrite it, and it survives upgrades of the main config. Whenever a tool
-supports a drop-in directory, reach for it first. If it has no drop-in directory, the next best
-option is an `Include` directive in the main file. Only when neither exists do you take over the
-main file itself.
+Many people keep their personal config files in a git repository, often called a dotfiles repo
+because most of those files start with a dot (`.bashrc`, `.gitconfig`, `.config/`). The repo
+is then linked into place on each machine, either by hand with `ln -s` or with a helper like
+GNU Stow, so a fresh install gets the same setup with one command.
+
+Drop-in directories make this much cleaner. Take dnf as an example. You want to set
+`max_parallel_downloads=10` on every machine you own. There are two ways to do it:
+
+- **Edit the main file.** Put your version of `/etc/dnf/dnf.conf` in the repo and link it over
+  the original. Now you own the whole file. When Fedora ships a new default in that file, you
+  either miss it or have to merge it by hand. Some package managers will also complain that the
+  file is modified on every upgrade.
+- **Use the drop-in directory.** Put a tiny `/etc/dnf/libdnf5.conf.d/99-mine.conf` in the repo
+  containing only your setting and link it into place. Fedora keeps full ownership of
+  `dnf.conf`, upgrades never touch your file, and the repo carries only the lines you actually
+  chose.
+
+The second option keeps the repo small and readable, since every file in it is a setting you
+picked on purpose. It also makes cleanup trivial: remove the symlink and the machine is back to
+stock.
+
+When setting up a tool, look for a drop-in directory first. If there is none, the next best
+option is an `Include` directive in the main file that points at your file. Only when neither
+exists do you take over the main file itself.
 
 ## Further reading
 
