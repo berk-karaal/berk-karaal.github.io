@@ -18,7 +18,8 @@ I'm Berk, interested in mostly backend and Linux stuff.
 GitHub: :octicons-mark-github-16: [berk-karaal](https://github.com/berk-karaal/)
 
 :tools: [Projects](./projects/index.md) &nbsp;&nbsp; :handshake: [Open Source
-Contributions](./contributions/index.md)
+Contributions](./contributions/index.md) &nbsp;&nbsp; :bookmark:
+[Bookmarks](./bookmarks/index.md)
 
 <style>
 .skill-icon {
