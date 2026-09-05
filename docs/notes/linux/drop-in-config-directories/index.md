@@ -20,7 +20,7 @@ of the system.
 
 <figure markdown="span">
     ![Output of ls -d /etc/*.d on a Fedora system](./example-drop-in-config-files.png)
-  <figcaption>Top-level drop-in directories on a Fedora machine</figcaption>
+    <figcaption>Top-level drop-in directories on a Fedora machine</figcaption>
 </figure>
 
 ## Why it exists

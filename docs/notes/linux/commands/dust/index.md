@@ -9,7 +9,7 @@ directories that are using the most space on your disk.
 
 <figure markdown="span">
     ![dust demo](./dust-demo.png)
-  <figcaption>Demo from project repo</figcaption>
+    <figcaption>Demo from project repo</figcaption>
 </figure>
 
 You can install it with `cargo`.
