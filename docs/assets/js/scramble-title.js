@@ -11,8 +11,6 @@
   var PAGE_PATTERNS = [/^\/notes\/.+\/$/, /^\/blog\/\d{4}\/\d{2}\/\d{2}\/.+\/$/];
   var TITLE_SELECTOR = ".md-content__inner h1";
 
-  var attached = [];
-
   function isTargetPage() {
     var path = window.location.pathname;
     return PAGE_PATTERNS.some(function (re) {
@@ -58,21 +56,6 @@
     return spans;
   }
 
-  function lockWidths(spans) {
-    spans.forEach(function (span) {
-      span.classList.remove("is-locked");
-      span.style.width = "";
-    });
-    var widths = spans.map(function (span) {
-      return span.getBoundingClientRect().width;
-    });
-    spans.forEach(function (span, i) {
-      if (isSpace(span.dataset.char)) return;
-      span.classList.add("is-locked");
-      span.style.width = widths[i] + "px";
-    });
-  }
-
   function attach(h1) {
     if (h1.dataset.scramble) return;
     h1.dataset.scramble = "on";
@@ -87,10 +70,6 @@
         .join("")
         .trim()
     );
-    attached.push(spans);
-    document.fonts.ready.then(function () {
-      lockWidths(spans);
-    });
 
     var run = 0;
     var active = [];
@@ -152,17 +131,6 @@
     var h1 = document.querySelector(TITLE_SELECTOR);
     if (h1) attach(h1);
   }
-
-  var resizeTimer;
-  window.addEventListener("resize", function () {
-    clearTimeout(resizeTimer);
-    resizeTimer = setTimeout(function () {
-      attached = attached.filter(function (spans) {
-        return spans.length && spans[0].isConnected;
-      });
-      attached.forEach(lockWidths);
-    }, 150);
-  });
 
   // document$ is Material's page observable; it re-emits after navigation.instant swaps content.
   if (window.document$) {

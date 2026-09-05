@@ -1,10 +1,11 @@
-.scramble-word {
-  white-space: nowrap;
+/* Monospace keeps every glyph the same width, so swapping a letter for a
+   digit or symbol while scrambling never shifts the surrounding text. */
+h1[data-scramble] {
+  font-family: var(--md-code-font-family);
 }
 
-.scramble-char.is-locked {
-  display: inline-block;
-  text-align: center;
+.scramble-word {
+  white-space: nowrap;
 }
 
 .scramble-char.is-scrambling {
