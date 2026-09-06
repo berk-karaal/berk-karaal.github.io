@@ -10,6 +10,16 @@ tags:
   - k8s
 
 bookmarks:
+  - title: Crossplane
+    description: |
+        Manage cloud infrastructure with Kubernetes manifests instead of Terraform. Providers
+        map external resources (databases, buckets, clusters) to custom resources, so the
+        cluster reconciles them continuously and drift gets corrected on its own.
+    tags: [k8s, Tools]
+    links:
+      - text: Website
+        url: https://www.crossplane.io/
+
   - title: Knative
     description: |
         Serverless on your own Kubernetes cluster. Serving runs containers behind HTTP and
