@@ -9,6 +9,17 @@ tags:
   - k8s
 
 bookmarks:
+  - title: Graft
+    description: |
+        Stops coding agents from re-exploring the repo on every task. Tree-sitter builds a
+        symbol and call graph, an LLM pass turns it into plain-English markdown notes per
+        subsystem, and agents read those instead of grepping around. Similar goal to
+        ChunkHound, but the output is browsable markdown rather than a search index.
+    tags: [AI, Coding]
+    links:
+      - text: GitHub
+        url: https://github.com/trailhq/Graft
+
   - title: ChunkHound
     description: |
         Gives coding agents context about a codebase. Indexes the repo with tree-sitter and
