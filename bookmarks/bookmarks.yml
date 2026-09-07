@@ -4,12 +4,21 @@ tags:
   - macOS App
   - Coding
   - Linux App
-  - Agentic
   - CI/CD
   - Tools
   - k8s
 
 bookmarks:
+  - title: ChunkHound
+    description: |
+        Gives coding agents context about a codebase. Indexes the repo with tree-sitter and
+        answers questions over semantic code search, git history and external docs, returning
+        answers with source citations. Runs locally, exposed to agents over MCP.
+    tags: [AI, Coding]
+    links:
+      - text: GitHub
+        url: https://github.com/chunkhound/chunkhound
+
   - title: Crossplane
     description: |
         Manage cloud infrastructure with Kubernetes manifests instead of Terraform. Providers
@@ -136,7 +145,7 @@ bookmarks:
   - title: drawio-skill
     description: |
         Coding agent drawio diagram generation skill.
-    tags: [Agentic]
+    tags: [AI]
     links:
       - text: GitHub
         url: https://github.com/Agents365-ai/drawio-skill
