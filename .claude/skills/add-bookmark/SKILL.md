@@ -72,10 +72,9 @@ anything else. Multiple links are fine when the user provides them (e.g. Website
 ### 4. Preview and confirm
 
 First print the exact YAML entry (and any proposed new tag) as a fenced code block in the chat
-message itself, then ask for approval with AskUserQuestion (options: approve / edit first). Also
-put the entry in each option's `preview` field. Both are needed: the preview pane can be too
-small to show a long entry in full, and the chat message is hidden behind the dialog while it is
-open — but it stays readable in the scrollback afterwards. Skip this step only when the
+message itself, then ask for approval with AskUserQuestion (options: approve / edit first). Do
+NOT set the options' `preview` field — the code block printed just above the dialog already
+shows the entry, and a preview pane only wastes screen space. Skip this step only when the
 invocation says so ("no confirmation", "just push", etc.).
 
 ### 5. Write the entry
