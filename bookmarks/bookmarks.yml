@@ -7,8 +7,18 @@ tags:
   - CI/CD
   - Tools
   - k8s
+  - Reading
 
 bookmarks:
+  - title: Don't be a meat proxy
+    description: |
+        Blog post against forwarding AI output to others without digesting it first. Pasting a
+        model's answer verbatim adds no value and pushes the work of understanding onto the reader.
+    tags: [Reading, AI]
+    links:
+      - text: Website
+        url: https://gruhn.me/blog/2026-08-03/
+
   - title: Floci
     description: |
         Run AWS locally instead of paying for a dev account. A better LocalStack: emulates
