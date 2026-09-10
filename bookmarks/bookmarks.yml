@@ -9,6 +9,17 @@ tags:
   - k8s
 
 bookmarks:
+  - title: Floci
+    description: |
+        Run AWS locally instead of paying for a dev account. A better LocalStack: emulates
+        around 100 services, MIT licensed with no paid tier.
+    tags: [Tools, Coding]
+    links:
+      - text: Website
+        url: https://floci.io/aws/
+      - text: GitHub
+        url: https://github.com/floci-io/floci
+
   - title: Graft
     description: |
         Stops coding agents from re-exploring the repo on every task. Tree-sitter builds a
