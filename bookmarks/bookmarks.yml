@@ -10,6 +10,15 @@ tags:
   - Reading
 
 bookmarks:
+  - title: Photopea
+    description: |
+        Photoshop in a browser tab. Opens and edits PSD, AI, PDF, SVG and RAW files with layers
+        and masks, no install and nothing uploaded — everything runs locally in the browser.
+    tags: [Tools]
+    links:
+      - text: Website
+        url: https://www.photopea.com/
+
   - title: Don't be a meat proxy
     description: |
         Blog post against forwarding AI output to others without digesting it first. Pasting a
