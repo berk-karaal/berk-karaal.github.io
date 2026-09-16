@@ -10,6 +10,16 @@ tags:
   - Reading
 
 bookmarks:
+  - title: Lockpaw
+    description: |
+        Locks a Mac's screen with a hotkey so you can walk away — nobody else can use the machine,
+        but it never sleeps, so long-running jobs and coding agents keep working and can still
+        flash a notification through. Unlocks with Touch ID.
+    tags: [macOS App]
+    links:
+      - text: GitHub
+        url: https://github.com/sorkila/lockpaw
+
   - title: Photopea
     description: |
         Photoshop in a browser tab. Opens and edits PSD, AI, PDF, SVG and RAW files with layers
