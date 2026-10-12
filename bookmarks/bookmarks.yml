@@ -8,8 +8,19 @@ tags:
   - Tools
   - k8s
   - Reading
+  - github-actions
 
 bookmarks:
+  - title: Namespace
+    description: |
+        Drop-in replacement for GitHub-hosted runners. Same workflows, their own Mac, Windows,
+        and Linux machines, with dependency caches and a way to SSH into a job that only fails
+        in CI.
+    tags: [github-actions]
+    links:
+      - text: Website
+        url: https://namespace.so/
+
   - title: Lockpaw
     description: |
         Locks a Mac's screen with a hotkey so you can walk away — nobody else can use the machine,
