@@ -11,6 +11,18 @@ tags:
   - github-actions
 
 bookmarks:
+  - title: Blacksmith
+    description: |
+        GitHub-hosted runners are GitHub's VMs, and a busy repo waits for one.
+        Blacksmith runs the same Actions workflows on their microVMs instead:
+        change runs-on, jobs start without that queue, and a sticky disk keeps
+        the git checkout and Docker layers so the next run does not download
+        them again.
+    tags: [github-actions]
+    links:
+      - text: Website
+        url: https://www.blacksmith.sh/
+
   - title: Namespace
     description: |
         GitHub-hosted runners are GitHub's own VMs. Namespace runs the same Actions
