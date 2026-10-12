@@ -13,9 +13,10 @@ tags:
 bookmarks:
   - title: Namespace
     description: |
-        Drop-in replacement for GitHub-hosted runners. Same workflows, their own Mac, Windows,
-        and Linux machines, with dependency caches and a way to SSH into a job that only fails
-        in CI.
+        GitHub-hosted runners are GitHub's own VMs. Namespace runs the same Actions
+        workflows on their hardware instead: change runs-on, and the job gets their
+        machines (including Macs), a local disk cache that stays between runs, and
+        SSH into a job that only fails in CI.
     tags: [github-actions]
     links:
       - text: Website
