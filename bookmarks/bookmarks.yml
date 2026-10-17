@@ -134,9 +134,9 @@ bookmarks:
 
   - title: croc
     description: |
-        Send files and folders between any two computers from the terminal, using a short code
-        phrase. End-to-end encrypted, peer-to-peer with relay fallback, no setup or port
-        forwarding.
+        Terminal file share between any two computers. Send files, folders, or a short
+        bit of text with a code phrase. End-to-end encrypted, peer-to-peer with a relay
+        if they cannot connect directly, no port forwarding.
     tags: [Tools]
     links:
       - text: GitHub
