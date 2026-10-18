@@ -12,6 +12,17 @@ tags:
   - django
 
 bookmarks:
+  - title: django-upgrade-report
+    description: |
+        Shows which dependencies block a Django upgrade, and the order to bump
+        them. Reads your lockfile and what each package declares on PyPI, so you
+        know what can move now and what has to land with Django. It does not
+        rewrite your code.
+    tags: [django, Tools]
+    links:
+      - text: GitHub
+        url: https://github.com/derblub/django-upgrade-report
+
   - title: Strawberry Django
     description: |
         GraphQL for a Django app without hand-writing a type for every model.
