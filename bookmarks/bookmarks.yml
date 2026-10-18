@@ -9,8 +9,20 @@ tags:
   - k8s
   - Reading
   - github-actions
+  - django
 
 bookmarks:
+  - title: Strawberry Django
+    description: |
+        GraphQL for a Django app without hand-writing a type for every model.
+        strawberry-graphql-django reads the models and serves queries, mutations,
+        and relations, and it joins related rows so a nested query does not
+        become one query per object.
+    tags: [django]
+    links:
+      - text: Website
+        url: https://strawberry.rocks/docs/django
+
   - title: Blacksmith
     description: |
         GitHub-hosted runners are GitHub's VMs, and a busy repo waits for one.
