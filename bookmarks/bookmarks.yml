@@ -12,6 +12,17 @@ tags:
   - django
 
 bookmarks:
+  - title: Celesto CI
+    description: |
+        Cheaper GitHub Actions runners. Change runs-on to Celesto's label and
+        each job runs on a fresh Ubuntu x64 microVM, at a fraction of GitHub's
+        per-minute price; actions/cache works as-is. Linux shell and JavaScript
+        steps only: no Docker actions, service containers, Windows or macOS.
+    tags: [github-actions]
+    links:
+      - text: Website
+        url: https://celesto.ai/ci
+
   - title: django-upgrade-report
     description: |
         Shows which dependencies block a Django upgrade, and the order to bump
