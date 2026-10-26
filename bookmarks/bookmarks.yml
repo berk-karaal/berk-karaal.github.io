@@ -10,8 +10,21 @@ tags:
   - Reading
   - github-actions
   - django
+  - prompt
 
 bookmarks:
+  - title: ai-disk-cleanup
+    description: |
+        A prompt for freeing disk space with an AI coding agent (Claude Code,
+        Cursor, Codex). Paste it in and the agent measures what actually takes
+        up space, groups it by how safe it is to delete (caches and build output,
+        VM disks and SDKs, your own files), and waits for your approval before
+        removing anything. Works on macOS, Linux and Windows.
+    tags: [prompt]
+    links:
+      - text: GitHub
+        url: https://github.com/riza/ai-disk-cleanup
+
   - title: Celesto CI
     description: |
         Cheaper GitHub Actions runners. Change runs-on to Celesto's label and
