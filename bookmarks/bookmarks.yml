@@ -11,8 +11,31 @@ tags:
   - github-actions
   - django
   - prompt
+  - websocket
 
 bookmarks:
+  - title: Sockudo
+    description: |
+        Self-hosted replacement for Pusher. A realtime WebSocket server written
+        in Rust that speaks the Pusher protocol, so existing Pusher client and
+        server libraries can point at your own server instead of the paid
+        service. Scales across nodes through Redis, NATS, Kafka and others.
+    tags: [websocket, Tools]
+    links:
+      - text: GitHub
+        url: https://github.com/sockudo/sockudo
+
+  - title: Pusher
+    description: |
+        Hosted realtime messaging, so you don't run your own WebSocket servers.
+        Your backend publishes an event to a channel and subscribed web and
+        mobile clients receive it instantly; used for live updates, chat,
+        notifications and presence. Also offers push notifications (Beams).
+    tags: [websocket, Tools]
+    links:
+      - text: Website
+        url: https://pusher.com
+
   - title: ai-disk-cleanup
     description: |
         A prompt for freeing disk space with an AI coding agent (Claude Code,
