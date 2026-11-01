@@ -14,6 +14,17 @@ tags:
   - websocket
 
 bookmarks:
+  - title: samwho
+    description: |
+        Sam Rose's personal site, known for visual, interactive essays that
+        explain software topics from the simplest example upward: Big O, hashing,
+        bloom filters, memory allocation, load balancing, prompt caching and
+        quantization. Good for learning how these things work by playing with them.
+    tags: [Reading]
+    links:
+      - text: Website
+        url: https://samwho.dev
+
   - title: Sockudo
     description: |
         Self-hosted replacement for Pusher. A realtime WebSocket server written
