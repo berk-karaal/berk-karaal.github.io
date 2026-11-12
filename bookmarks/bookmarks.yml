@@ -14,6 +14,19 @@ tags:
   - websocket
 
 bookmarks:
+  - title: AsyncAPI
+    description: |
+        Like OpenAPI, but for event-driven APIs. OpenAPI describes
+        synchronous HTTP request/response endpoints (paths and methods);
+        AsyncAPI describes the channels, messages and operations a service
+        publishes or subscribes to, over Kafka, MQTT, AMQP, WebSockets and
+        similar protocols. Write a YAML or JSON spec, then generate docs
+        and code from it. A service can use both side by side.
+    tags: [Tools]
+    links:
+      - text: Website
+        url: https://www.asyncapi.com
+
   - title: samwho
     description: |
         Sam Rose's personal site, known for visual, interactive essays that
