@@ -14,6 +14,18 @@ tags:
   - websocket
 
 bookmarks:
+  - title: oauth2-proxy
+    description: |
+        A reverse proxy that puts OAuth2 or OIDC login in front of apps that
+        don't have their own. It intercepts requests, sends the user to a
+        provider such as Google, GitHub or Microsoft Entra ID, then forwards
+        the authenticated request (and user details as headers) to your app.
+        Can run standalone or as middleware in an existing proxy or load balancer.
+    tags: [Tools]
+    links:
+      - text: GitHub
+        url: https://github.com/oauth2-proxy/oauth2-proxy
+
   - title: AsyncAPI
     description: |
         Like OpenAPI, but for event-driven APIs. OpenAPI describes
