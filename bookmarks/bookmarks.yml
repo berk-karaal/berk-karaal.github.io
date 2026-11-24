@@ -14,6 +14,18 @@ tags:
   - websocket
 
 bookmarks:
+  - title: microservices.io
+    description: |
+        Chris Richardson's site (he's the author of Microservices
+        Patterns) on the microservice architecture. It is a pattern
+        language for service design, collaboration, testing and
+        deployment, along with articles on decomposing a monolith
+        and avoiding a distributed monolith.
+    tags: [Reading]
+    links:
+      - text: Website
+        url: https://microservices.io
+
   - title: marimo
     description: |
         A reactive Python notebook, as an alternative to Jupyter. Change a
